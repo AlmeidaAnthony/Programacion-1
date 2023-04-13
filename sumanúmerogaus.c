@@ -8,7 +8,8 @@ int main(int argc, char const *argv[])
 
     sum = (num * (num + 1)) / 2;
 
-    printf("La suma de Gauss de %d es: \n",sum);
+    printf("La suma de Gauss de %d es: \n",num);
+    printf(" %d ", sum);
 
     return 0;
 }
